@@ -3,22 +3,41 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Base Apparel</title>
+		<link rel="stylesheet" href="styles/coming-soon-page.css">
+		<style>
+			@font-face {
+				font-family: 'Josefin Sans';
+				src: url('fonts/JosefinSans-VariableFont_wght.ttf') format('truetype');
+			}
+		</style>
 	</head>
 	<body>
-		<div>
-			<img src="images/logo.svg">
-			<h1>WE'RE COMING SOON</h1>
-			<p>
-				Hello fellow shoppers! We're currently building our new fashion store. Add
-				your email below to stay up-to-date with announcements and our launch deals.
-			</p>
+		<div class="container">
+			<div class="page-text-container">
+				<div class="logo-image-container">
+					<img src="images/logo.svg" class="logo-image">
+				</div>
+				<div class="page-text">
+					<div>
+						<p class="other-words first-word">WE'RE</p>
+						<p class="other-words">COMING</p>
+						<p class="other-words">SOON</p>
+					</div>
+					<p class="intro-text">
+						Hello fellow shoppers! We're currently building our new fashion store. Add
+						your email below to stay up-to-date with announcements and our launch deals.
+					</p>
+					<div class="input-field">
+						<input class="text-input" type="text" name="email-address" placeholder="Email Address">
+						<button class="submit-button"></button>
+						<img class="arrow-image" src="images/icon-arrow.svg">
+					</div>
+				</div>
+			</div>
 			<div>
-				<input type="text" name="email-address" placeholder="Email Address">
-				<button>Submit</button>
+				<img class="model-image" src="images/hero-desktop.jpg">
 			</div>
 		</div>
-		<div>
-			<img src="images/hero-desktop.jpg">
-		</div>
+		
 	</body>
 </html>
